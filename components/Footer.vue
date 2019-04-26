@@ -91,7 +91,7 @@ ul {
   margin-top: 16px;
 }
 footer > div:not(:first-child) {
-  margin-top: 48px;y
+  margin-top: 48px;
 
   @media screen and (min-width: $break-tablet) {
     margin-top: 100px;
