@@ -144,11 +144,9 @@ footer {
   padding-right: 20px;
 
   @media screen and (min-width: $break-tablet) {
-    // padding-left: 40px;
-    // padding-right: 40px;
-    padding-left: 0px; //jyy
-    padding-right: 0px; //jyy
-    //padding-top: 100px; //jyy
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 100px; 
   }
 }
 
@@ -160,8 +158,7 @@ section {
 }
 
 footer {
-  // padding-bottom: 48px;
-  padding-bottom: 0px; //jyy
+  padding-bottom: 48px;
 }
 
 .text-center {

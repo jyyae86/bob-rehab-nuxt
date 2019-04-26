@@ -91,12 +91,10 @@ ul {
   margin-top: 16px;
 }
 footer > div:not(:first-child) {
-  margin-top: 48px;
-  padding:24px 40px; //jyy
-	background-color: #e6f3f0; //jyy
+  margin-top: 48px;y
 
   @media screen and (min-width: $break-tablet) {
-    // margin-top: 100px; jyy
+    margin-top: 100px;
   }
 }
 .footer__content-wrapper {
