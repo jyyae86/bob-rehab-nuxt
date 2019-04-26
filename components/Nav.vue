@@ -1,7 +1,7 @@
 <template>
   <nav>
     <ul>
-      <li class="h3 hide--mobile">{{ $t('nav.title') }}</li>
+      <li class="h4 hide--mobile">{{ $t('nav.title') }}</li>
       <li class="h4 hide--mobile nav-home">
         <nuxt-link :to="localePath('index')">
           {{ $t('nav.home') }}
@@ -155,7 +155,7 @@ ul {
   padding: 16px 20px;
 
   @media screen and (min-width: $break-tablet) {
-    padding: 16px 40px;
+    padding: 32px 40px;
   }
 }
 li {
